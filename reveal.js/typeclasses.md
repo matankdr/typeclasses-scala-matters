@@ -1,3 +1,10 @@
+## Slides and code
+https://github.com/matankdr/typeclasses-scala-matters
+
+<img src="https://www.wix.com/tools/qr-code-generator/_functions/svg/500/000000/FFFFFF/aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGbWF0YW5rZHIlMkZ0eXBlY2xhc3Nlcy1zY2FsYS1tYXR0ZXJz" />
+
+---
+
 ## Type Classes
 ### Why are they useful?
 <img src="https://media.giphy.com/media/3oKIPjHCmuXqdVvak8/giphy.gif">
@@ -560,8 +567,8 @@ implicit def pointEncoder(implicit enc: JsonEncoder[Int]) =
 ---
 
 ### In Summary, Type classes:
-- Are **interfaces** that define **new behaviors** <!-- .element: class="fragment" -->
-- Enable adding new behavior to existing types **without altering the source code** <!-- .element: class="fragment" -->
+- Are interfaces that define new behaviors <!-- .element: class="fragment" -->
+- Enable adding new behavior to existing types without altering the source code <!-- .element: class="fragment" -->
 - Provide ad-hoc polymorphism <!-- .element: class="fragment" -->
 - Usually expressed with generic traits and implicit calls to make a clean API <!-- .element: class="fragment" -->
 - Enables the compiler to write code instead of the developer <!-- .element: class="fragment" -->
